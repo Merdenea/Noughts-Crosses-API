@@ -5,7 +5,7 @@ This will open the server on http://localhost:8080/.
 Since there is no GUI, you'll have to talk to the api through HTTP requsts. I used Postman, but you can use something else like curl.
 There are three endpoints to the api:
 
-/newgame(GET)  : This will initialise a new game and the response will indicate who is the starting player
+/newgame(GET)  : This will initialise a new game and the response will indicate who is the starting player. (You'll always need to do this first).
 
 /getstate(GET) : This will return the current state of the game 
 
