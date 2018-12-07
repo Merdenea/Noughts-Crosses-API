@@ -1,6 +1,6 @@
 ## Noughts & Crosses
 
-You can open the server by running `code` go run main.go `code`
+You can open the server by running `go run main.go`
 This will open the server on http://localhost:8080/.
 Since there is no GUI, you'll have to talk to the api through HTTP requsts. I used Postman, but you can use something else like curl.
 There are three endpoints to the api:
@@ -17,4 +17,4 @@ There are three endpoints to the api:
 }
 Don't forget to set the headers of your post request to Content-Type → application/json.
 
-The response from the POST request will indicate if the move attempted by the player was no legal, or if the game is over.
+The response from the POST request will indicate if the move attempted by the player was not legal, or if the game is over.
